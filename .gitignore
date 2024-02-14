@@ -1,0 +1,65 @@
+# Bloody frontend
+node_modules
+bower_components
+
+# VSCode
+.vscode
+
+# Rider
+.idea/
+
+#github actions workflow
+.github
+
+# Ignore Visual Studio files
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.cache
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.jpg
+*.dll
+*.dbmdl
+*.nupkg
+*.p7s
+*.sln.ide
+*.onnx
+[Bb]in
+[Dd]ebug*/
+[Oo]bj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+TestsResult.html
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+[Tt]humbs.db
+
+/images/*
+*/images/*
+**/images/*
+# NuGet
+/packages/
+**/packages/*
+!**/packages/build/
+
+# Build
+/artifacts/
+
+.localhistory
+.vs/
